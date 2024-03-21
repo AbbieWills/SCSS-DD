@@ -1,0 +1,57 @@
+@import '../base/variables';
+@import '../base/typography';
+
+
+.maker {
+    background-color: $color-secondary;
+    padding: 5%;
+    text-align: justify;
+    color: $color-white;
+
+    &__title {
+      padding-bottom: 3%;
+      font-family: $font-family-primary;
+      font-size: $font-size-title;
+      font-weight: bold;
+    }
+}
+
+  .story {
+    color: $color-white;
+    font-size: $font-size-text;
+    font-family: $font-family-primary;
+    padding-bottom: 1%;
+  }
+  
+  .vinny {
+    &-photo {
+      max-width: 55%;
+      height: auto;
+      border-radius: 50%;
+      display: block;
+      place-items: center;
+      margin: 0 auto;
+      padding-bottom: 20px;
+    }
+    &__text {
+      text-align: center;
+      margin-left: auto;
+      color: $color-white;
+      font-family: $font-family-primary;
+      margin-bottom: -15px;
+    }
+  }
+
+
+  @media (max-width: 768px) {
+    .maker__title {
+      font-size: 2rem;
+    }
+    .story {
+      font-size: 1rem;
+    }
+    .vinny__text {
+      margin-bottom: 0px;
+    }
+  }
+

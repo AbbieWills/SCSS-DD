@@ -1,0 +1,65 @@
+@import '../base/variables';
+@import '../base/typography';
+
+.testimonial {
+  &__title {
+    font-size: $font-size-title;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 5rem;
+    color: #1b1a1ac8;
+    font-family: $font-family-primary;
+  }
+  &-img {
+    width: 500px !important;
+    border-radius: 100%;
+    max-height: 500px!important;
+    margin: 0 auto;
+    display: block;
+  }
+}
+
+.photo {
+  &__text {
+    font-size: 1.5rem !important;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 2rem;
+    padding-top: 1.2rem;
+    color: $color-black;
+    font-family: $font-family-primary;
+  }
+  &__desc {
+    font-size: $font-size-text;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 5rem;
+    padding-top: 2rem;
+    font-family: $font-family-primary;
+  }
+}
+
+// Media queries
+@media screen and (max-width: 640px) {
+  .testimonial{
+    &__title {
+      font-size: 1.8rem;
+      margin-top: 2rem;
+    }
+    &-img {
+      width: 300px !important;
+      max-height: 300px!important;
+    }
+  }
+
+  .photo {
+    &__text {
+      font-size: $font-size-text !important;
+      margin-bottom: 1rem;
+    }
+    &__desc {
+      font-size: 1.1rem;
+      margin-bottom: 2rem;
+    }
+  }
+}

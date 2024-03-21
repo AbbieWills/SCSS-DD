@@ -1,0 +1,28 @@
+@import '../base/variables';
+@import '../base/typography';
+
+.footer {
+    background-color: $color-white;
+    border-top: 1px solid #ddd;
+    padding: 20px 0 10px 0;
+    text-align: center;
+    font-size: 0.9rem;
+    font-family: $font-family-primary;
+}
+
+.icon {
+    font-size: 1.8rem;
+    color: $color-black;
+    margin: 0 7px 0 7px;
+}
+
+.copyright__text {
+    color: $color-black;
+}
+
+.love__text {
+    padding-top: 10px;
+    margin-bottom: 10px;
+    font-size: 1.1rem;
+    color: $color-black;
+}
