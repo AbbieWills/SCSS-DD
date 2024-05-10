@@ -417,10 +417,11 @@ body {
         }
 
         &__text {
-        font-size: 1.4rem;
+        font-size: 1.8rem;
         width: 100%;   
-        margin: 0 auto; 
+        margin: 1.8rem auto; 
         margin-left: 6rem;
+        border: 2px dotted $color-font-primary;
         }
 
     .button--shop {
