@@ -42,7 +42,7 @@ const Contact = () => {
           We have exciting news for you - there is no minimum order requirement!  <br /> <br />
           Whether you're seeking a single tub or a grand feast for your four-legged companions, we are here to cater to your needs. <br /> <br />
           To streamline the delivery process and ensure a seamless experience, kindly specify a selection of dates and times during which you will be available to accept the order. This allows us to coordinate the delivery with utmost precision and deliver your delightful package right to your dogs bowl. <br /> <br />
-          Email us at: <br></br>
+          Email Abbie at: <br></br>
           sales@ddicecream.com
         </p>
       {/* <form className='form' onSubmit={composeMailTo}>

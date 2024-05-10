@@ -29,9 +29,9 @@ const Home = () => {
         <div className='col-lg-6 col-md-12 col-sm-12 intro'>
           <h1 className='intro__title'>Lactose and Fat-Free <br /> Dog Ice Cream </h1>
           <h2 className='intro__text'>Now available in Peanut Butter, Banana, and Vanilla flavour!
-          <a href="/contact" className="button button--shop">
+          {/* <a href="/contact" className="button button--shop">
             Enquire <FontAwesomeIcon icon={faIceCream}/>
-          </a>
+          </a> */}
           </h2>
         </div>
       <div className='col-lg-6 col-md-12 col-sm-12'>
