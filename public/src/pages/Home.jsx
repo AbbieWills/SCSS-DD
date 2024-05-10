@@ -3,7 +3,7 @@ import '../styles/pages/_home.scss';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faIceCream, faPaw, faCircleCheck, faHeart  } from '@fortawesome/free-solid-svg-icons';
 import Carousel from '../components/Carousel.jsx';
-import Contact from '../components/Contact.jsx';
+// import Contact from '../components/Contact.jsx';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import icecreamtitle from '../photos/icecreamtitle.png';
 import cowphoto from '../photos/cowphoto.png';
@@ -196,7 +196,7 @@ const Home = () => {
     </div>
   </div>
   </div>
-    <Contact/>
+    {/* <Contact/> */}
     </>
   )
 }
