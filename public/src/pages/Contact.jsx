@@ -42,37 +42,38 @@ const Contact = () => {
           We have exciting news for you - there is no minimum order requirement!  <br /> <br />
           Whether you're seeking a single tub or a grand feast for your four-legged companions, we are here to cater to your needs. <br /> <br />
           To streamline the delivery process and ensure a seamless experience, kindly specify a selection of dates and times during which you will be available to accept the order. This allows us to coordinate the delivery with utmost precision and deliver your delightful package right to your dogs bowl. <br /> <br />
+          Email us at: <br></br>
           sales@ddicecream.com
         </p>
-      <form className='form' onSubmit={composeMailTo}>
+      {/* <form className='form' onSubmit={composeMailTo}>
         <div className="row">
           <div className="col-md-6">
-            <label className='label' htmlFor="fName">First Name</label>
-            <input className='input' type="text" id="fName" name="firstName" placeholder="Your name.." required onChange={handleInputChange} value={formData.firstName} />
+            <label className='form__label' htmlFor="fName">First Name</label>
+            <input className='form__input' type="text" id="fName" name="firstName" placeholder="Your name.." required onChange={handleInputChange} value={formData.firstName} />
           </div>
           <div className="col-md-6">
-            <label className='label' htmlFor="lName">Last Name</label>
-            <input className='input' type="text" id="lName" name="lastName" placeholder="Your last name.." required onChange={handleInputChange} value={formData.lastName} />
+            <label className='form__label' htmlFor="lName">Last Name</label>
+            <input className='form__input' type="text" id="lName" name="lastName" placeholder="Your last name.." required onChange={handleInputChange} value={formData.lastName} />
           </div>
         </div>
         <div className="row">
           <div className="col-md-6">
-            <label className='label' htmlFor="business">Business</label>
-            <input className='input' type="text" id="business" name="business" placeholder="Your business name (optional).." onChange={handleInputChange} value={formData.business} />
+            <label className='form__label' htmlFor="business">Business</label>
+            <input className='form__input' type="text" id="business" name="business" placeholder="Your business name (optional).." onChange={handleInputChange} value={formData.business} />
           </div>
           <div className="col-md-6">
-            <label className='label' htmlFor="email">Email</label>
-            <input className='input' type="email" id="email" name="email" placeholder="Your email.." required onChange={handleInputChange} value={formData.email} />
+            <label className='form__label' htmlFor="email">Email</label>
+            <input className='form__input' type="email" id="email" name="email" placeholder="Your email.." required onChange={handleInputChange} value={formData.email} />
           </div>
         </div>
         <div className="row">
           <div className="col-md-12">
-            <label className='label' htmlFor="subject">Subject</label>
-            <textarea className='subject' id="subject" name="subject" placeholder="Write here.." required onChange={handleInputChange} value={formData.subject}></textarea>
+            <label className='form__label' htmlFor="subject">Subject</label>
+            <textarea className='form__subject' id="subject" name="subject" placeholder="Write here.." required onChange={handleInputChange} value={formData.subject}></textarea>
           </div>
         </div>
         <button id="submit" className="form-button" type="submit" value="Submit">Submit</button>
-      </form>
+      </form> */}
     </div>  
   </>
   );

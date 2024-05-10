@@ -10,6 +10,10 @@
     text-align: justify;
     color: $color-black;
     font-size: 1.1rem;
+
+    &__input:focus {
+      border-color: $color-secondary;
+    }
   }
 
   &__title {
@@ -38,6 +42,28 @@
   border: 1.5px solid $color-primary;
   color: $color-white;
 
+  &__label {
+    font-weight: bold;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  
+  &__input,
+  &__subject {
+    width: 100%;
+    padding: 15px;
+    margin-bottom: 15px !important;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    transition: border-color 0.3s ease-in-out;
+    margin: 0 auto;
+
+    &:focus-visible {
+      outline-color: $color-primary;
+    }
+  }
+  
+
   &-button {
     background-color: #06c27d;
     color: $color-white !important;
@@ -54,24 +80,6 @@
       background-color: #029d3b;
     }
   }
-}
-
-.label {
-  font-weight: bold;
-  margin-top: 10px;
-  margin-bottom: 10px;
-}
-
-.input,
-.subject {
-  width: 100%;
-  padding: 15px;
-  margin-bottom: 15px !important;
-  border: 1px solid #ccc;
-  border-radius: 10px;
-  transition: border-color 0.3s ease-in-out;
-  margin: 0 auto;
-  color: #245c93;
 }
 
 @media (max-width: 768px) {

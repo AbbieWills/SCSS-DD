@@ -19,6 +19,7 @@ import pjs from '../photos/pjs.png';
 import ohmydog from '../photos/ohmydog.png';
 import wortley from '../photos/wortley.png';
 import warley from '../photos/warley.png';
+import rascals from '../photos/rascals.jpeg';
 
 
 const Home = () => {
@@ -86,10 +87,18 @@ const Home = () => {
   <h4 className='press__title__subtitle'>North Yorkshire:</h4>
       <div className="container-fluid">
         <div className='press-item'>
-          <a href="" target='_blank'>
+          <a href="https://www.facebook.com/p/PJs-Ices-Waterside-Knaresborough-100063499750810/?locale=en_GB" target='_blank'>
           <img className="press-logo-circle" src={pjs} alt="pjsLogo"></img>
           </a>
           <figcaption className='press-item__text'>PJ's Ices</figcaption>
+          <figcaption>Waterside, Knaresborough</figcaption>
+        </div>
+
+        <div className='press-item'>
+          <a href="https://www.instagram.com/rascalsknaresborough/?hl=en" target='_blank'>
+          <img className="press-logo-circle" src={rascals} alt="rascalsLogo"></img>
+          </a>
+          <figcaption className='press-item__text'>Rascal's</figcaption>
           <figcaption>Waterside, Knaresborough</figcaption>
         </div>
 
