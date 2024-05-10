@@ -196,7 +196,7 @@ body {
         &__text {
             font-size: 1.3rem;
             margin-left: 0;
-            text-align: center;
+            text-align: left;
         }
 
         &-image-img {
@@ -224,7 +224,7 @@ body {
         &-info__text {
             font-size: $font-size-text;
             padding:  2rem;
-            text-align: justify;
+            text-align: left;
         }
     }
 
