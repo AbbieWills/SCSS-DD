@@ -20,6 +20,7 @@ import ohmydog from '../photos/ohmydog.png';
 import wortley from '../photos/wortley.png';
 import warley from '../photos/warley.png';
 import rascals from '../photos/rascals.jpeg';
+import windmill from '../photos/windmill.png';
 
 
 const Home = () => {
@@ -124,6 +125,14 @@ const Home = () => {
         </a>
         <figcaption className='press-item__text'>Sophie's Corner Shop</figcaption>
         <figcaption>High St, Hampsthwaite, Harrogate</figcaption>
+      </div>
+
+      <div className='press-item'>
+        <a href='https://thewindmillinnlinton.co.uk/' target='_blank'>
+            <img className="press-logo" src={windmill} alt="WindmillLogo"></img>
+        </a>
+        <figcaption className='press-item__text'>The Windmill Inn</figcaption>
+        <figcaption>Main St, Linton, Wetherby</figcaption>
       </div>
 
   <h4 className='press__title__subtitle'>East Yorkshire:</h4>
