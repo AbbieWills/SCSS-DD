@@ -41,7 +41,6 @@ body {
     font-size: 1.5rem;
 }
 
-
 .button--shop {
     font-size: 1.5rem;
     color: $color-font-primary; 
@@ -244,6 +243,7 @@ body {
                 border-radius: 60%;
             }
         }
+        
         &__title {
             font-size: 1.5rem;
 
@@ -251,6 +251,7 @@ body {
                 font-size: $font-size-text;
             }
         }
+
         &-item {
             font-size: 1rem;
             &__text {
@@ -382,19 +383,20 @@ body {
         width: 100%;   
         margin: 0 auto; 
         margin-left: 6rem;       
+        }
+
+        &__text {
+            font-size: 1.4rem;
+            width: 100%;   
+            margin: 0 auto; 
+            margin-left: 6rem;
+        }
+
+        &-image-img {
+            width: 70%;
+        }
     }
 
-    &__text {
-        font-size: 1.4rem;
-        width: 100%;   
-        margin: 0 auto; 
-        margin-left: 6rem;
-    }
-
-    &-image-img {
-        width: 70%;
-    }
-}
     .button--shop {
         font-size: 1.2rem;
         width: 80%;
@@ -417,16 +419,16 @@ body {
         }
 
         &__text {
-        font-size: 1.8rem;
-        width: 100%;   
-        margin: 1.8rem auto; 
-        margin-left: 6rem;
-        border: 2px dotted $color-font-primary;
+            font-size: 1.8rem;
+            width: 100%;   
+            margin: 1.8rem auto; 
+            margin-left: 6rem;
+            border: 2px dotted $color-font-primary;
         }
 
-    .button--shop {
-        display: block;
-    }
+        .button--shop {
+            display: block;
+        }
     }
 }
 
@@ -443,10 +445,9 @@ body {
             margin: 0 auto; 
             margin-left: 6rem;
         }
-    .button--shop {
-        width: 70%;
-    }
+
+        .button--shop {
+            width: 70%;
+        }
     }
 }
-
-

@@ -103,14 +103,6 @@ const Home = () => {
           <figcaption>Waterside, Knaresborough</figcaption>
         </div>
 
-        <div className='press-item'>
-        <a href='https://thedogsbakery.co.uk/' target='_blank'>
-            <img className="press-logo" src={bakery} alt="BakeryLogo"></img>
-        </a>
-        <figcaption className='press-item__text'>The Dogs Bakery & Cafe</figcaption>
-        <figcaption>25 Regent Parade, Harrogate</figcaption>
-      </div>
-
       <div className='press-item'>
         <a href='https://www.facebook.com/slingsbys/' target='_blank'>
             <img className="press-logo" src={slingsbys} alt="SlingsLogo"></img>
@@ -119,13 +111,13 @@ const Home = () => {
         <figcaption>49 Tower St, Harrogate</figcaption>
       </div>
 
-      <div className='press-item'>
+      {/* <div className='press-item'>
         <a href='https://www.sophiesbedandbreakfast.co.uk/cornershop' target='_blank'>
             <img className="press-logo" src={sophies} alt="SophiesLogo"></img>
         </a>
         <figcaption className='press-item__text'>Sophie's Corner Shop</figcaption>
         <figcaption>High St, Hampsthwaite, Harrogate</figcaption>
-      </div>
+      </div> */}
 
       <div className='press-item'>
         <a href='https://thewindmillinnlinton.co.uk/' target='_blank'>
@@ -177,13 +169,13 @@ const Home = () => {
         <figcaption>22-24 College St, Sutton-on-Hull</figcaption>
       </div>
 
-      <div className='press-item'>
+      {/* <div className='press-item'>
         <a href='https://www.facebook.com/micropiglongriston/' target='_blank'>
             <img className="press-logo" src={micropig} alt="MicropigLogo"></img>
         </a>
         <figcaption className='press-item__text'>MicroPig Bar</figcaption>
         <figcaption>Main Street, Long Riston, Hull</figcaption>
-      </div>
+      </div> */}
 
       <div className='press-item'>
         <a href='https://www.facebook.com/people/The-Old-Post-Office-and-Tearooms/100093574080618/' target='_blank'>
@@ -193,15 +185,15 @@ const Home = () => {
         <figcaption>2 Cliff Ln, Mappleton</figcaption>
       </div>
 
-      <h4 className='press__title__subtitle'>South Yorkshire:</h4>
+      {/* <h4 className='press__title__subtitle'>South Yorkshire:</h4> */}
 
-      <div className='press-item'>
+      {/* <div className='press-item'>
         <a href='https://www.facebook.com/WortleyFarmShop' target='_blank'>
           <img className="press-logo" src={wortley} alt="WortleyFarmShopLogo"></img>
         </a>
         <figcaption className='press-item__text'>Wortley Farm Shop</figcaption>
         <figcaption>Park Ave, Wortley, Sheffield</figcaption>
-      </div>
+      </div> */}
     </div>
   </div>
   </div>
