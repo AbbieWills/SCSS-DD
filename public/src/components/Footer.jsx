@@ -17,7 +17,7 @@ const Footer = () => {
         <a href="https://www.instagram.com/doggiesdelightsyorkshire/" target='_blank'>
             <FontAwesomeIcon icon="fa-brands fa-instagram" className='icon' />
         </a>
-        <a href="mailto: sales@ddicecream.co.uk" target='_blank'>
+        <a href="mailto: doggiesdelightsharrogate@gmail.com" target='_blank'>
             <FontAwesomeIcon icon={faEnvelope} className='icon'/>
         </a>
         <p className='love__text'>
