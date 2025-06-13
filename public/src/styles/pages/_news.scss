@@ -1,0 +1,45 @@
+@import '../base/variables';
+@import '../base/typography';
+
+.news {
+    background-color: $color-secondary;
+    padding: 5%;
+    text-align: justify;
+    color: $color-white;
+
+    &__title {
+        padding-bottom: 3%;
+        font-family: $font-family-primary;
+        font-size: $font-size-title;
+        font-weight: bold;
+    }
+
+    &__intro {
+        color: $color-white;
+        font-size: $font-size-text;
+        font-family: $font-family-primary;
+        padding-bottom: 1%;
+    }
+
+    img {
+        width: 100%;
+        margin-bottom: 20;
+        box-shadow: '0 0 8px rgba(0,0,0,0.15)';
+    }
+
+    // .paw-icon {
+    //     color: ;
+    // }
+}
+
+@media (max-width: 768px) {
+    .news {
+        &__title {
+            font-size: 2rem;
+        }
+
+        &__intro {
+            font-size: 1rem;
+        }
+    }
+}

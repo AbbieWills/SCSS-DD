@@ -37,6 +37,11 @@ const NavbarComponent = () => {
               </NavLink>  
             </li>
             <li className="navbar__item">
+              <NavLink className="navbar__link" activeclassname="active" to="/news">
+                News
+              </NavLink>
+            </li>
+            <li className="navbar__item">
               <NavLink className="navbar__link" activeclassname="active" to="/contact">
                 Contact
               </NavLink>
